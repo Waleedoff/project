@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('background-image.png');
+    background-size: cover;
+    width: 1000px;
+    height: 2000px;
+    /* background-position: center; */
+
+}
+
+/* here started header section */
+.header{
+    position: relative;
+    left: 20%;  
+}
+.header h1 {
+    padding: 10px 0 0;
+}
+
+
+/* here started with logo image */
+.logo{
+    position: absolute;
+    top: 0;
+}
+
+
+/* this used to make multiple (*) */
+.span1
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.span2{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+}
+
+
+/* Here started table section */
+table, th, td {
+    border:1px solid black;
+  }
+table {
+    position: absolute;
+    bottom: 29%;
+    left: 35%;
+    padding:5px;
+    text-align: center;
+}
+/* start BigBox section  */
+
+
+
+
+/* start  CONTACT   section  */
+
+button{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    padding: 9px;
+    margin: 10px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.contact a {
+    text-decoration: none;
+    color: #fff;
+}
+button:hover {
+    background-color: black;
+    border: 1px solid black
+}
+
+.cv{
+    border: 1px solid black;
+    position: absolute;
+    left: 23%;
+    top: 90%;
+    padding: 80px;
+}
+.cv h2 {
+    padding: 10px;
+}
+.cv1{
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    padding: 80px;
+}
+.cv1 h2 {
+    padding: 20px;
+}

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <!-- here we make internal css -->
+    <style>
+        body {
+            background-image: url('background-image.png');
+            background-size: cover;
+        }
+        form{
+            position: absolute;
+            left: 50%;
+            top:50%;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        input{
+            width: 100%;
+        }
+        button {
+            position: absolute;
+            left: 56%;
+            top:74%;
+            padding: 9px;
+            /* margin: 10px; */
+            background-color: red;
+            color: #fff;
+            border: 1px solid red;
+            border-radius: 7px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+    </style>
+
+    <body>
+       
+        
+        <form>
+            <div class="name">
+            <label for="name">Your Name</label>
+            <br>
+            <input type="text" id="name" >
+             <br>
+            </div>
+
+            <div class="email">
+            <label for="email">Your Email</label>
+            <br>
+             <input type="email" id="email" >
+                <br>
+            </div>
+
+            <div class="message">
+             <label for="message">Your Message</label>
+            <br>
+             <input type="text" id="message" >
+            </div>
+
+        </form>
+        <button>Send</button>
+
+    </body>
+</html>
